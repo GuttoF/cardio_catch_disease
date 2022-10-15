@@ -6,7 +6,7 @@ authors = ["Gutto Franca <guttolaudie@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9, <3.11"
 pandas = "^1.4.2"
 seaborn = "^0.11.2"
 yellowbrick = "^1.4"
@@ -23,7 +23,8 @@ catboost = "^1.0.6"
 lightgbm = "^3.3.2"
 plotly = "^5.9.0"
 nbconvert = "^6.5.0"
-pandoc = "^2.2"
+scikit-plot = "^0.3.7"
+optuna = "^3.0.2"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.15.0"
